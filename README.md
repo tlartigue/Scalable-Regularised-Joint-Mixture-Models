@@ -17,7 +17,7 @@ This repository provides:
 - All the core functions necessary to reproduce the experiments of the article.
 *RJM_functions.py*
 
-- A script, with fully customisable parameters, that evaluates various clustering methods, including different variants of our *Scalable Regularised Joint Mixture Model*, on a provided dataset. If no data is provided, a synthetic dataset following a mixed Gaussian distribution is automatically generated instead.
+- A script, with fully customisable parameters, that evaluates various clustering methods, including different variants of our *Scalable Regularised Joint Mixture Models*, on a provided dataset. If no data is provided, a synthetic dataset following a mixed Gaussian distribution is automatically generated instead.
 *RJM_script.py*
 
 # References
