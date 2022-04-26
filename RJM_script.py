@@ -1,7 +1,7 @@
 from RJM_functions import*
 
 # for multi processing: run one simulation
-# apart from the simu ID and the data, all arguments are defined locally here mu_true
+# apart from the simu ID and the data, all arguments are defined locally inside the function
 # if no data is provided, synthetic data is generated instead
 def run_one_simulation(simu, X_full=None, labels=None):
     """
@@ -10,7 +10,7 @@ def run_one_simulation(simu, X_full=None, labels=None):
     Arguments:
         simu: An integer. ID of this simulation. Determines the seed of the simulation.
         X_full: A pandas DataFrame of shape: n x p. Observed data: the index is the observation ID, the columns are the features. If None, synthetic data is generated.
-        labels: A pandas Series of length n . Class-labels of the observed data.
+        labels: A pandas Series of length n. Class-labels of the observed data.
     """
     
     # set the global seed here to have each simulation be different
