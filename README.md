@@ -4,6 +4,8 @@ This is the companion code to the article:
 
 **Scalable Regularised Joint Mixture Models**. Thomas Lartigue, Sach Mukherjee.
 
+https://arxiv.org/abs/2205.01486
+
 If you use elements of this code in your work, please cite this article as reference.
 
 # Abstract
